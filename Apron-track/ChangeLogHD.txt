@@ -1,0 +1,30 @@
+changes done in 
+
+C:\MyWebsites\aprontrack\aprontrack\admin\include\js\init.js\init
+//HD host:'http://219.91.205.9:8087/aprontrack/admin/', (why)
+
+Table Users had a column Switch (?) which was not null and no default value was provided.
+but while registration it was not in the insert statement(?)
+changed Users table and gave default value as "0" to the column Switch...
+
+Directory create as required by register.php (why?)
+C:\Apache\temp\session
+
+
+--enable following module:
+c:\Apache\php\php.ini
+extension=php_openssl.dll
+extension=php_gd2.dll
+extension=php_mbstring.dll
+extension=php_mysql.dll
+extension=php_mysqli.dll
+extension=php_pdo_mysql.dll
+
+--Timezone changed
+c:\Apache\php\php.ini
+date.timezone =Asia/Calcutta
+
+
+
+
+
